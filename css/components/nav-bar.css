@@ -37,6 +37,10 @@
     bottom: 15px;
 }
 
+.nav__notification--user {
+    position:static;
+}
+
 .nav__notification--small {
     height: 6px;
     width: 6px;

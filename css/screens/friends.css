@@ -1,0 +1,33 @@
+.notion-box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 0px;
+    background-color: #eeeeee;
+}
+
+.notion-box__icon {
+    color: #b1b1b1;
+}
+
+.notion-box__text {
+    margin: 0px 10px;
+}
+
+.divider {
+    display: flex;
+    flex-direction: column;
+}
+
+.divider__line {
+    height:2px;
+    background-color:#e4e4e4;
+    margin-bottom: 10px;
+}
+
+.divider__textbox {
+    display:flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color:#b1b1b1;
+}
