@@ -34,6 +34,10 @@
     justify-content: center;
 }
 
+.user-component__subtitle-box {
+    margin-top: 10px;
+}
+
 .user-component__name {
     font-size: 18px;
     font-weight: 700;
@@ -48,3 +52,8 @@
     margin: 5px 0px;
     color: #b2b2b2;
 }
+
+.user-component__warning {
+    color: tomato;
+}
+

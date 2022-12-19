@@ -1,0 +1,53 @@
+.setting-header {
+    margin: 15px 0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.setting-header__title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.setting-list {
+    position: relative;
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+}
+
+.setting-list div:last-child {
+    border-bottom:none;
+}
+
+.setting-list__component {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    display:flex;
+    justify-content: space-between;
+    padding: 25px 10px;
+}
+
+.setting-list__column {
+    display: flex;
+    align-items: center;
+}
+
+.setting-list__name {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.setting-list__subtext {
+    font-size: 20px;
+    color: rgba(0,0,0,0.5);
+}
+
+.setting-divider {
+    position: absolute;
+    bottom:-20px;
+    left:-25px;
+    background-color: rgba(0,0,0,0.3);
+    height:1px;
+    width:100vw;
+}

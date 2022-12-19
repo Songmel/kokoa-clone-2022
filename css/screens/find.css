@@ -1,0 +1,120 @@
+.find-tools {
+    padding: 30px 0px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+}
+
+.find-tools__column {
+    position:relative;
+    margin-top:50px;
+    display:flex;
+    height: 70px;
+    width: 105px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.find-tools__name {
+    display:flex;
+    text-align: center;
+}
+
+.find-tools__cover {
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.recommended-friends {
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommended-friends__none {
+    color: rgba(0,0,0,0.3);
+}
+
+.openchat__screen {
+    padding: 20px 0px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.openchat__column {
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.openchat__title {
+    padding: 5px 0px;
+    font-size: 20px;
+}
+
+.openchat__subtitle {
+    padding: 3px 0px;
+    color: rgba(0,0,0,0.3);
+}
+
+.openchat__members-screen {
+    display:flex;
+    align-items: center;
+    color: rgba(0,0,0,0.3);
+}
+
+.openchat__members-avatar {
+    width:20px;
+    height: 20px;
+    margin-right:5px;
+    border-radius: 10px;
+}
+
+.openchat__members-active {
+    color: rgb(255, 105, 155);
+}
+
+.openchat__cover {
+    width: 100px;
+    height:100px;
+    border-radius: 10px;
+}
+
+@keyframes heartBeat {
+    0% {
+        transform:none;
+    }
+    50% {
+        transform:scale(1.4);
+        color:tomato;
+    }
+    100% {
+        transform: none;
+        color: white;
+    }
+}
+
+.openchat__heart-screen {
+    position:absolute;
+    bottom: 5px;
+    right: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 24px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 12px;
+}
+
+.openchat__heart-screen:hover .openchat__heart{
+    animation: heartBeat 0.6s ease-in-out infinite;
+}

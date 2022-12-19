@@ -1,4 +1,5 @@
 .nav {
+    z-index:100;
     position : fixed;
     bottom: 0;
     width:100%;
@@ -14,6 +15,38 @@
 
 }
 
+@keyframes navOpening {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.nav__btn {
+    transform: translateY(80px);
+    animation:navOpening 1s ease-in-out forwards;
+}
+
+.nav__list .nav__btn:nth-child(1) {
+    animation-delay:0.3s
+}
+
+.nav__list .nav__btn:nth-child(2) {
+    animation-delay:0.6s
+}
+
+.nav__list .nav__btn:nth-child(3) {
+    animation-delay:0.9s
+}
+
+.nav__list .nav__btn:nth-child(4) {
+    animation-delay:1.2s
+}
+
 .nav__link {
     position: relative;
     color: #2e363e;
@@ -23,6 +56,20 @@
     display: flex;
     background-color: tomato;
     position: absolute;
+}
+
+@keyframes notifiAnimation {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translateY(-5px) rotateY(360deg);
+    }
+
+    100% {
+        transform: none;
+    }
 }
 
 .nav__notification--num {
@@ -35,6 +82,8 @@
     color: white;
     left: 15px;
     bottom: 15px;
+    
+    animation: notifiAnimation 2s ease-in-out infinite;
 }
 
 .nav__notification--user {
@@ -45,6 +94,6 @@
     height: 6px;
     width: 6px;
     border-radius: 3px;
-    left: 30px;
-    bottom: 30px;
+    right: -5px;
+    top: -17px;
 }

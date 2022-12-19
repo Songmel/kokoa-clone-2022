@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/5374af606f.js" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find - Kokoa Clone </title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>    
+        <div class="status-bar__column">
+            <span>11%</span>
+            <i class="fa-solid fa-battery-quarter fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>  
+    </div>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-regular fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification nav__notification--num">1</span>
+                    <i class="fa-regular fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__notification nav__notification--small"></span>
+                    <i class="fa-solid fa-ellipsis fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="main-screen">
+        <div class="header-screen">
+            <div class="header-screen__column">
+                <span class="header-screen__title">Find</span>
+            </div>
+            <div class="header-screen__column">
+                <span class="header-screen__icon"><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+                <a class="header-screen__icon" href="settings.html"><i class="fa-solid fa-gear fa-xl"></i></a>
+            </div>
+        </div>
+
+        <div class="margin-fix"></div>
+
+        <div class="find-tools">
+            <div class="find-tools__column">
+                <span class="find-tools__icon"><i class="fa-solid fa-qrcode fa-2xl"></i></span>
+                <span class="find-tools__name">QR Code</span>
+            </div>
+            <div class="find-tools__column">
+                <span class="find-tools__icon"><i class="fa-regular fa-address-book fa-2xl"></i></span>
+                <span class="find-tools__name">Add by Contacts</span>
+            </div>
+            <div class="find-tools__column">
+                <span class="find-tools__icon"><i class="fa-solid fa-fingerprint fa-2xl"></i></span>
+                <span class="find-tools__name">Add by ID</span>
+            </div>
+            <div class="find-tools__column">
+                <span class="find-tools__icon"><i class="fa-regular fa-envelope fa-2xl"></i></span>
+                <span class="find-tools__name">Invite</span>
+            </div>
+        </div>
+
+        <div class="divider">
+            <div class="divider__line">
+            </div>
+            <div class="divider__textbox">
+                <span class="divider__name">Recommended Friends</span>
+            </div>
+        </div>
+
+        <div class="recommended-friends">
+            <span class="recommended-friends__none">You have no recommended friends.</span>
+        </div>
+
+        <div class="divider">
+            <div class="divider__line">
+            </div>
+            <div class="divider__textbox">
+                <span class="divider__name">Open Chat</span>
+                <span class="divider__icon">Go to Openchat Home<i class="fa-solid fa-chevron-right"></i></span>
+            </div>
+        </div>
+
+        <div class="openchat__screen">
+            <div class="openchat__column">
+                <span class="openchat__title">#BTS</span>
+                <span class="openchat__subtitle">#ARMY</span>
+                <div class="openchat__members-screen">
+                    <img class="openchat__members-avatar" src="https://w.namu.la/s/e1203086a408b9b55a50210bf3e08d6e7646d659853010adb9bb76acede0dded64c90aaaaa78fcc5c788f304a01d459cf6b659654beac249814f1196c65413ecd88ac7030dde18242d2c46f1f87abab2"/>
+                    <span class="openchat__members-number">802 members ㅣ </span>
+                    <span class="openchat__members-active">Active</span>
+                </div>
+            </div>
+            <div class="openchat__column">
+                <img class="openchat__cover" src="https://i0.wp.com/m.izm.co.kr/wp-content/uploads/2021/09/%EC%95%84%EB%8F%84%EC%9D%B4-her_%EC%95%A8%EB%B2%94%EC%9E%90%EC%BC%93_%ED%81%AC%EA%B8%B0%EC%A1%B0%EC%A0%88.jpg?fit=580%2C580&ssl=1" />
+                <div class="openchat__heart-screen">
+                    <span class="openchat__heart"><i class="fa-solid fa-heart"></i></span>
+                    <span class="openchat__rate">326</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="splash">
+        <span class="splash__icon"><i class="fa-solid fa-comment fa-2xl"></i></span>
+    </div>
+
+</body>
+</html>

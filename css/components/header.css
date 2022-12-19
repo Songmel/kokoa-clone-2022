@@ -18,3 +18,15 @@
     margin-left: 25px;
 }
 
+@keyframes cogSpin{
+    from {
+        transform: none;
+    }
+    to {
+        transform:rotateZ(360deg);
+    }
+}
+
+.fa-gear:hover {
+    animation: cogSpin 2s linear infinite;
+}
